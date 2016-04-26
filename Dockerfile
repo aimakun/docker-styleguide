@@ -1,6 +1,6 @@
 FROM monostream/nodejs-gulp-bower:latest
 
-EXPOSE 8080 8181
+EXPOSE 8080 80
 
 COPY . /data
 WORKDIR /data/app
