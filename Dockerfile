@@ -1,5 +1,7 @@
 FROM mkenney/npm:latest
 
+EXPOSE 80
+
 COPY . /data
 WORKDIR /data/app
 
