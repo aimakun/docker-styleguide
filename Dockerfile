@@ -5,6 +5,7 @@ EXPOSE 80
 COPY . /data
 WORKDIR /data/app
 
+RUN npm install gulp
 RUN npm install devbridge-styleguide --save-dev
 RUN npm install devbridge-styleguide -g
 RUN styleguide initialize
